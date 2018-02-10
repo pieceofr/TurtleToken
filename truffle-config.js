@@ -1,6 +1,6 @@
 module.exports = {
   networks: {
-    development: {
+    Dev: {
       host: "localhost",
       port: 8545,
       network_id: "*" // Match any network id
@@ -13,7 +13,7 @@ module.exports = {
       network_id: "3" // Ropsten Test Net
     }
   },
-  Production: {
+  Prod: {
     development: {
       host: "localhost",
       port: 8545,
